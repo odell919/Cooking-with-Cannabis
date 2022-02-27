@@ -1,0 +1,50 @@
+<!--Odell Langston-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cooking with Cannabis::Registration</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="cannabis.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+</head>
+<body>
+    <div id="wrapper"></div>
+    <header>
+      <h1><a href="index.html">Cooking with Cannabis</a></h1>
+    </header>
+      <nav>
+            <ul>
+            <li><a href="index.html">Home</a></li>  
+            <li><a href="baking.html">Baking</a></li> 
+            <li><a href="strains.html">Strains</a></li>
+            <li><a href="registration.html">Registration</a></li>
+            <li><a href="information.html">Information</a></li>
+            </ul> 
+      </nav>
+          <main>
+            <h2>Register at Cooking with Cannabis</h2>  
+            <h3>Join Today</h3>
+            <p>Required fields are marked with an asterisk *</p>
+            <form method="post" action="https://webdevbasics.net/scripts/pacific.php">
+               <label for="myFName">* First Name</label>
+               <input type="text" name="myFName" 
+                      id="myFName" required="required">
+               <label for="myLName">* Last Name</label>
+               <input type="text" name="myLName"
+                      id="myLName" required="required">
+               <label for="myEmail">* E-mail</label>
+               <input type="email" name="myEmail" id="myEmail"
+                      required="required">
+               <label for="myPhone">Phone:</label>
+               <input type="tel" name="myPhone" id="myPhone" maxlength="12">
+               <label for="myComments">Comments:</label>
+               <textarea id="myComments" name="myComments" rows="2" cols="30" required></textarea>
+               <input type="submit" value="Submit"> 
+            </form>
+          </main>
+          <footer>
+            <a href="mailto:Odell@Langston.com">Odell@Langston.com</a>
+          </footer>
+</body>
+</html>
